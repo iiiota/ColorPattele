@@ -26,7 +26,7 @@ public class UGUIColorPalette : MonoBehaviour
 
     private void Start()
     {
-        InitCirclePatelle();
+        InitCirclePalette();
         _update = UpdateIdle;
     }
 
@@ -92,7 +92,7 @@ public class UGUIColorPalette : MonoBehaviour
             _update = UpdateIdle;
     }
 
-    private void InitCirclePatelle()
+    private void InitCirclePalette()
     {
         var texure = new Texture2D(circle_out_size, circle_out_size);
         circleRawImg.texture = texure;
